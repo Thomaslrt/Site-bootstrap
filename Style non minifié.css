@@ -45,11 +45,12 @@ form {
         background: #141414;
         transition: width 0.4s ease-in-out 0s, left 0.4s ease-in-out 0s;
         width: 0;
-      }
-      .navbar .px-2:hover:after { 
+    }
+
+    .navbar .px-2:hover:after { 
         width: 100%; 
         left: 0; 
-      }
+    }
 }
 
 @media (min-width:1337px) {
@@ -57,6 +58,31 @@ form {
         margin:0 30px;
     }
 }
+
+
+@media (max-width:991px) {
+    .dc {
+        margin-top:50px;
+    }
+}
+
+
+@media (max-width:768px) {
+    .dc {
+        margin-top:50px;
+    }
+
+    .tmdc {
+        text-align:center;
+    }
+
+    #mt-mb {
+        margin-top:50px;
+    }
+
+}
+
+
 
 .navigation {
     width: 100%;
@@ -275,5 +301,12 @@ nav img {
 
 footer {
     width: 75%;
-    margin-top:500px;
+}
+
+#contact {
+    margin-bottom:100px;
+}
+
+#prix {
+    color:#7265ea
 }
